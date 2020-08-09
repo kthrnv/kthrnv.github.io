@@ -6,9 +6,9 @@ img {
 }
 
 .container {
-    width:100%;
-    height:auto;
-    padding:1%;
+    width: 80%;
+    height: auto;
+    padding: 1%;
     margin-left: 50px;
 }
 
@@ -29,7 +29,7 @@ p.main {
     padding-bottom: 0px;
 }
 
-.name {
+.txt-rotate {
     color: #A6808C;
 }
 
@@ -43,7 +43,7 @@ div.menu ul {
 }
 
 div.menu ul li {
-    float: right; /*The element floats to the left of its container*/
+    float: right; /*The element floats to the right of its container*/
 }
 
 div.menu ul li a {
