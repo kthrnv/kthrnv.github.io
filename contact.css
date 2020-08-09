@@ -1,0 +1,85 @@
+/*Menu bar styling*/
+div.menu ul {
+    list-style-type: none; /*removes bullets*/
+    margin: 0px 50px 0px 0px;
+    padding: 0;
+    overflow: hidden; /*Content that doesn't fit into the div won't be seen*/
+    background-color: white;
+}
+
+div.menu ul li {
+    float: right; /*The element floats to the right of its container*/
+}
+
+div.menu ul li a {
+    display: block; /*Displays element as a block element*/
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /*removes the underline that links have*/
+    font-family: sofia pro;
+    font-size: 150%;
+}
+
+div.menu ul li a:hover{
+    background-color: #A6808C;
+    color: white;
+}
+
+.active {
+    background-color: #A6808C;
+    color: white;
+}
+
+.name {
+    float: left;
+    font-family: sofia pro;
+    font-size: 150%;
+    color: black;
+    padding: 14px 16px;
+}
+
+/*Heading styling*/
+
+.heading {
+    text-align: center;
+}
+
+/*Content styling*/
+.content {
+    font-family: sofia pro;
+    font-size: 180%;
+    text-align: center;
+}
+
+/*resume button*/
+button {
+    font-family: sofia pro;
+    font-size: 80%;
+    border-radius: 5px;
+    border: 3px solid #A6808C;
+    background-color: white;
+    color: #A6808C;
+    box-shadow: -6px 8px 20px #B4A6AB;
+}
+
+button:hover {
+    background-color: #A6808C;
+    color: white;
+    cursor: pointer;
+}
+
+/*Social Media Icons*/
+div.icons i{
+    color: #B4A6AB;
+    padding: 0px;
+    display: inline-block;
+    text-align: center;
+    margin: 0px 10px 0px 0px;
+    font-size: 80px;
+    cursor: pointer;
+}
+
+div.icons a {
+    text-decoration: none;
+}
