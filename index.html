@@ -11,6 +11,9 @@
         <!--Link files -->
         <link href="index.css" type="text/css" rel="stylesheet" />
         <script src="typingCarousel.js"></script>
+        <!--FontAwesome-->
+        <link href="fontawesome/icons/css/all.css" rel="stylesheet"/>
+        
     </head>
     
     <body>
@@ -40,6 +43,63 @@
                 <p class="info">aspiring ui/ux/product designer</p>
             </div>
         </div>
+        
+        <br>
+        <br>
+        
+        <!--Content: Projects -->
+        <div class="projects">
+            <p class="projHeader">Projects</p>
+            <div class="projectname">
+                <a href="gingercove.html">
+                    <img src="assets/GingerCovePhotoButton.png" alt="Ginger Cove" width="400" height= "400">
+                </a>
+            </div>
+        
+        </div>
+        
+        <br>
+        <br>
+        
+        <!--Content: Graphic Design -->
+        <div class="graphicdesign">
+            <p class="weebly">Graphic Design</p>
+            <br>
+            <p class="GDdescription">Please bear with me as I work on the kinks of this new website.
+            <br> Please check out my other work on
+            <a href="https://kthrnv.weebly.com/", target="_blank">kthrnv.weebly.com</a>,
+            <br> where I apply my skills using Adobe Creative Suite applications and other design tools! :)
+            </p>
+
+            <p class="ps">P.S. I plan to have most of my work transferred and coded to this website
+            by late 2020! :)</p>
+        </div>
+        
+        <!--Back To Top Button-->
+        <br>
+        <button onclick="topFunction();" id="myBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+
+        <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
         
     </body>
     
