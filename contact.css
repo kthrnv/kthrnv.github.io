@@ -1,7 +1,7 @@
 /*Menu bar styling*/
 div.menu ul {
     list-style-type: none; /*removes bullets*/
-    margin: 0px 50px 0px 0px;
+    margin: 0px 77px 0px 0px;
     padding: 0;
     overflow: hidden; /*Content that doesn't fit into the div won't be seen*/
     background-color: white;
