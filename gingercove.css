@@ -97,6 +97,13 @@ p, li {
   color: #A6808C;
 }
 
+/*Solutions*/
+.credit {
+  font-style: italic;
+  color: gray;
+  font-size: 90%;
+}
+
 /* GRID */
 
 /* CONTAINER */
