@@ -13,7 +13,7 @@ img {
 }
 
 p.info {
-    font-family: sofia pro;
+    font-family: sofia-pro, sans-serif;
     font-size: 250%;
     margin-top: 0px;
     margin-left: 0px;
@@ -22,7 +22,7 @@ p.info {
 }
 
 p.main {
-    font-family: sofia pro;
+    font-family: sofia-pro, sans-serif;
     font-size: 500%;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -52,7 +52,7 @@ div.menu ul li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none; /*removes the underline that links have*/
-    font-family: sofia pro;
+    font-family: sofia-pro, sans-serif;
     font-size: 150%;
 }
 
@@ -63,7 +63,7 @@ div.menu ul li a:hover{
 
 /*Projects*/
 p.projHeader, p.weebly {
-    font-family: Sofia Pro;
+    font-family: sofia-pro, sans-serif;
     color: #615055;
     text-align: center;
     font-size: 250%;
@@ -86,12 +86,12 @@ p.projHeader, p.weebly {
 
 /*description for graphic design*/
 p.GDdescription {
-    font-family: Sofia Pro;
+    font-family: sofia-pro, sans-serif;
     text-align: center;
     font-size: 125%;
 }
 p.ps {
-    font-family: Sofia Pro;
+    font-family: sofia-pro, sans-serif;
     text-align: center;
     font-size: 100%;
 }
