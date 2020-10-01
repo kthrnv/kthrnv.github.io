@@ -78,6 +78,12 @@ p.projHeader, p.weebly {
     padding-top: 0px;
 }
 
+/*Hover on top of project button*/
+.gingercoveprojpage:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  border: none;
+}
+
 /*description for graphic design*/
 p.GDdescription {
     font-family: Sofia Pro;
