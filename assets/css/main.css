@@ -1,0 +1,32 @@
+body {
+    font-family: sofia-pro, sans-serif;
+}
+
+a, .course-heading {
+    color: #A6808C;
+}
+
+a .fab {
+    color:#B4A6AB;
+}
+
+.btn {
+    background-color: #B4A6AB;
+    border-color: #B4A6AB;
+}
+
+a .fab:hover {
+    color: #A6808C;
+    border-color: #A6808C;
+}
+
+.btn:hover {
+    background-color: #A6808C;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
