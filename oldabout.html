@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    
+<html>
+    
+    <head>
+        <title>Katherine Vo | About</title>
+        
+        <!--Favicon-->
+        <link rel="shortcut icon" href="assets/katedoodle.PNG">
+        <!-- Links CSS file -->
+        <link href="about.css" type="text/css" rel="stylesheet"/>
+        <link href="fontawesome/css/all.css" rel="stylesheet"/>
+        <!--Sofia Pro font-->
+        <link rel="stylesheet" href="https://use.typekit.net/ekz7plf.css">
+        
+    </head>
+    
+    <body>
+        <!-- Menu bar -->
+        <div class="menu">
+            <ul>
+                <li class="name" style="float: left;">Katherine Vo</li>
+                <li><a href="contact.html">contact</a></li>
+                <li class="active"><a href="about.html">about</a></li>
+                <li><a href="index.html">work</a></li>
+            </ul>
+        </div>
+        
+        <div class="heading">
+            <img src="assets/katedoodle2.PNG" alt="kate doodle" width="200" height= "200">
+        </div>
+        
+        <div class="content">
+            <p>Hi, my name is Katherine but people mainly call me Kate! As an undergraduate student at the University of Maryland at
+            College Park, I am a junior majoring in Information Science and minoring in General Business and Sustainability Studies.
+            I enjoy learning about new programming languages, drawing illustrations, and creating graphic designs in my free time (currently obsessed
+            with doodling on Procreate on my iPad)! I am pursuing a career in product design and hope to bring positive change to the world.
+            </p>
+            <br>
+            <p>Feel free to browse at some of my completed work including art, tech, and promotion of diversity and inclusion in computing! 
+            <a href="contact.html">Reach out</a> anytime and I look forward to chatting with you!</p>
+            
+            <br>
+            
+            <a href="assets/KVoResume.pdf", target="_blank"><button id="resume" type="button">Resume</button></a>
+            
+        </div>
+        
+        <br>
+        <button onclick="topFunction();" id="myBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+
+        <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
+    </body>
+    
+</html>
