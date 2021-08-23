@@ -57,3 +57,12 @@ a .fab:hover {
 .proj-tile {
     border-radius: 5%;
 }
+
+.proj-link {
+    text-decoration: none;
+    color: #212529;
+}
+
+.proj-link:hover {
+    color: #A6808C;
+}
