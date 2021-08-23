@@ -1,3 +1,5 @@
+/** CURRENTLY NOT IN USE **/
+
 /*Menu bar styling*/
 div.menu ul {
     list-style-type: none; /*removes bullets*/
@@ -48,12 +50,13 @@ div.menu ul li a:hover{
 /*Content styling*/
 .content {
     font-family: sofia-pro, sans-serif;
-    font-size: 180%;
+    font-size: 150%;
     text-align: center;
+    padding: 0px 160px;
 }
 
 /*resume button*/
-button {
+#resume {
     font-family: sofia-pro, sans-serif;
     font-size: 80%;
     border-radius: 5px;
@@ -63,23 +66,30 @@ button {
     box-shadow: -6px 8px 20px #B4A6AB;
 }
 
-button:hover {
+#resume:hover {
     background-color: #A6808C;
     color: white;
     cursor: pointer;
 }
 
-/*Social Media Icons*/
-div.icons i{
-    color: #B4A6AB;
-    padding: 0px;
-    display: inline-block;
-    text-align: center;
-    margin: 0px 10px 0px 0px;
-    font-size: 80px;
-    cursor: pointer;
+/*Back to Top button*/
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: #A6808C; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  /*border-radius: 50px; /*Rounded corners */
+  font-size: 40px; /* Increase font size */
 }
 
-div.icons a {
-    text-decoration: none;
+#myBtn:hover {
+  /*background-color: #555; /* Add a dark-grey background on hover */
+  color: #555;
 }
