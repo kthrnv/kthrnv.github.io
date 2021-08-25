@@ -39,43 +39,13 @@
     <!-- CONTENT -->
     <div class="container">
         <h1 class="text-center">Projects</h1>
-        <!--
-        <nav class="nav nav-pills justify-content-center">
-            <a data-bs-toggle="pill" class="nav-link active" aria-current="page" href="#all">All</a>
-            <a data-bs-toggle="pill" class="nav-link" href="#uiux">UI/UX</a>
-            <a data-bs-toggle="pill" class="nav-link" href="#product">Product Design</a>
-            <a data-bs-toggle="pill" class="nav-link" href="#webdev">Web Dev</a>
-            <a data-bs-toggle="pill" class="nav-link" href="#graphic">Graphic Design</a>
-        </nav>
-
-        <div class="tab-content">
-            <div id="all" class="tab-pane fade in active">
-              <h3>ALL</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </div>
-            <div id="uiux" class="tab-pane fade">
-              <h3>UI/UX</h3>
-              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            </div>
-            <div id="product" class="tab-pane fade">
-              <h3>Product Design</h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-            </div>
-            <div id="webdev" class="tab-pane fade">
-              <h3>Web Dev</h3>
-              <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-            </div>
-            <div id="graphic" class="tab-pane fade">
-                <h3>Graphic Design</h3>
-                <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-            </div>
-        </div>--><!--end tab content-->
+        
         <div class="text-center pb-3" id="btnContainer">
-            <button class="btn p-2 active" onclick="filterSelection('all');"> All</button>
-            <button class="btn p-2" onclick="filterSelection('uiux');"> UI/UX</button>
-            <button class="btn p-2" onclick="filterSelection('product');"> Product Design</button>
-            <button class="btn p-2" onclick="filterSelection('webdev');"> Web Dev</button>
-            <button class="btn p-2" onclick="filterSelection('graphic');"> Graphic Design</button>
+            <button class="btn p-2 my-1 active" onclick="filterSelection('all');"> All</button>
+            <button class="btn p-2 my-1" onclick="filterSelection('uiux');"> UI/UX</button>
+            <button class="btn p-2 my-1" onclick="filterSelection('product');"> Product Design</button>
+            <button class="btn p-2 my-1" onclick="filterSelection('webdev');"> Web Dev</button>
+            <button class="btn p-2 my-1" onclick="filterSelection('graphic');"> Graphic Design</button>
         </div>
           
         <div class="container d-flex justify-content-center">
@@ -113,16 +83,20 @@
                     </a>
                 </div>
                 <div class="col mb-3 filterDiv uiux graphic">
-                    <img src="assets/img/projtiles/bitcamptile.png" class="proj-tile" alt="Bitcamp Projects Block" width="70%">
-                    <div class="container">
-                        <h4 class="proj-title">Design Work for Bitcamp</h4>
-                    </div>
+                    <a href="bitcampdesign.html" class="proj-link">
+                        <img src="assets/img/projtiles/bitcamptile.png" class="proj-tile" alt="Bitcamp Projects Block" width="70%">
+                        <div class="container">
+                            <h4 class="proj-title">Design Work for Bitcamp</h4>
+                        </div>
+                    </a>
                 </div>
                 <div class="col mb-3 filterDiv uiux product graphic">
-                    <img src="assets/img/projtiles/technicatile.png" class="proj-tile" alt="Technica Projects Block" width="70%">
-                    <div class="container">
-                        <h4 class="proj-title">Design Work for Technica</h4>
-                    </div>
+                    <a href="technicadesign.html" class="proj-link">
+                        <img src="assets/img/projtiles/technicatile.png" class="proj-tile" alt="Technica Projects Block" width="70%">
+                        <div class="container">
+                            <h4 class="proj-title">Design Work for Technica</h4>
+                        </div>
+                    </a>
                 </div>
                 <div class="col mb-3 filterDiv webdev">
                     <img src="assets/img/projtiles/randomizetile.png" class="proj-tile" alt="INST377 Project Block" width="70%">

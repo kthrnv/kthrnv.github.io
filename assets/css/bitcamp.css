@@ -1,0 +1,16 @@
+.colored-box {
+    background-color:#B4A6AB;
+    border-radius:8px;
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.diagram {
+    font-size: 150%;
+    color: #A6808C;
+}
