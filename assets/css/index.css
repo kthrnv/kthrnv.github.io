@@ -1,8 +1,10 @@
 /*Header styling*/
 img {
     border-radius: 100px;
+    /*
     margin: 0px;
     padding: 0px;
+    */
 }
 
 /*.container {
@@ -14,7 +16,8 @@ img {
 
 p.info {
     font-family: sofia-pro, sans-serif;
-    font-size: 250%;
+    /*font-size: 250%;*/
+    font-size: 3vw;
     margin-top: 0px;
     margin-left: 0px;
     padding-top: 0px;
@@ -23,7 +26,8 @@ p.info {
 
 p.main {
     font-family: sofia-pro, sans-serif;
-    font-size: 500%;
+    /*font-size: 500%;*/
+    font-size: 5vw;
     margin-bottom: 0px;
     margin-left: 0px;
     padding-bottom: 0px;
@@ -105,7 +109,7 @@ p.ps {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: white; /* Set a background color */
+  background-color: transparent; /* Set a background color */
   color: #A6808C; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px; /* Some padding */
