@@ -119,3 +119,23 @@ p, li {
     /*background-color: #555; /* Add a dark-grey background on hover */
     color: #A6808C;
   }
+
+/*Centers images*/
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*Emphasized subtext */
+.diagram {
+    font-size: 150%;
+    color: #A6808C;
+}
+
+/*Colored box*/
+.colored-box {
+    background-color:#B4A6AB;
+    border-radius:8px;
+}
