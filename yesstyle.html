@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YesStyle Redesign | Katherine Vo</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="assets/img/katedoodle.PNG">
+    <!-- Links CSS file: fontawesome, Bootstrap -->
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet"/>
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/gingercove.css" type="text/css"/>
+    <!--Sofia Pro font-->
+    <link rel="stylesheet" href="https://use.typekit.net/ekz7plf.css">
+</head>
+<body>
+    
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-light navbar-expand-sm">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">Katherine Vo</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myTogglerNav" aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="myTogglerNav">
+                <div class="navbar-nav ms-auto">
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="education.html" class="nav-item nav-link">Education</a>
+                    <a href="projects.html" class="nav-item nav-link">Projects</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CONTENT -->
+    <div class="container">
+        <!--Banner-->
+        <img src="assets/img/yesstyle/yesstylebanner.png" alt="YesStyle Banner" width="100%" height="auto">
+        
+        <!--Intro-->
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-7">
+                    <h1>YesStyle Website Redesign</h1>
+                    <p>This project is a partial redesign of the YesStyle website, which is an online store with a wide 
+                        selection of Asian beauty trends including clothing and other lifestyle products. This is a look into
+                        how filtering facets can enhance the user experience.
+                    </p>
+                </div><!-- end 1st col-->
+                <div class="col-md-5">
+                    <div class="background">
+                        <p class="label">Type</p>
+                        <p>Website Redesign / Team Project</p>
+                        <p class="label">Practices</p>
+                        <p>Research, Wireframing, Prototyping, User Interviews, User Evaluations</p>
+                        <p class="label">My Role</p>
+                        <p>UI/UX Researcher, UI/UX Designer</p>
+                        <p class="label">Tools</p>
+                        <p>Adobe XD, Miro</p>
+                        <p class="label">Collaborators</p>
+                        <p>Ali Baloch, Emily Gazda, Shane Vong</p>
+                        <p class="label">Duration</p>
+                        <p>2 1/2 months</p>
+                    </div>
+                </div><!-- end 2nd col -->
+            </div><!-- end row -->
+        </div><!--end container-->
+
+        <hr>
+
+        <div class="container">
+            <!--The Problems-->
+            <div class="mb-5">
+                <h2>The Problem</h2>
+                <p>The layout of the website <b>overwhelms</b> the user with a lot of information. Although navigating through
+                    the website is doable, the experience is not as smooth when trying to filter through the information for details 
+                    that the buyer wants when compared to other websites.
+                </p>
+                <p class="diagram"><b><em>Constraints</em></b></p>
+                <ul>
+                    <li>Regulars may be accustomed to the current design</li>
+                    <li>Website has a lot of information, making it difficult to determine what is necessary for customers</li>
+                </ul>
+                <p class="diagram"><b><em>Before...</em></b></p>
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 mb-3">
+                    <div class="col">
+                        <img src="assets/img/yesstyle/beforesite.png" alt="YesStyle Website Before" width="100%" height="auto" style="max-width:700px;">
+                    </div>
+                    <div class="col">
+                        <h4>Searching for Products</h4>
+                        <ul>
+                            <li>All products are tagged with a "deal"</li>
+                            <ul class="mb-1">
+                                <li>Not visually different unless reading the tag</li>
+                                <li>Can make users feel uneasy and deem the site untrustworthy</li>
+                            </ul>
+                            <li class="mb-1">Can't sort by size</li>
+                            <li>Categories aren't meaningfully different (i.e., "Limited Deals" vs. "Final Clearance" could be interpreted the same by users)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                    <div class="col">
+                        <video src="assets/img/yesstyle/productpage.mp4" width=100% height=auto controls>Video not supported</video>
+                    </div>
+                    <div class="col">
+                        <h4>Looking at Details for a Specific Product</h4>
+                        <ul>
+                            <li class="mb-1">Gallery is not consolidated in a grid, making it feel unorganized</li>
+                            <li class="mb-1">"Details" tab includes the content for the "Gallery" and "Reviews" tab meanwhile
+                                the "Gallery" and "Review" tabs only contain its own information
+                            </li>
+                            <ul>
+                                <li>Question to consider: What is the point of organizing information using tabs if it all appears in one tab?</li>
+                            </ul>
+                            <li class="mb-1">Random promotions in the right column</li>
+                        </ul>
+                        <p>Overall, the YesStyle website provides much information but does not provide it in a concise or attractive manner.</p>
+                    </div>
+                </div>
+                
+            </div>
+
+            <!--Stakeholders-->
+            <div class="mb-5">
+                <h2 class="mb-3">Primary Stakeholders</h2>
+                <img src="assets/img/gingercove/stakeholders.jpg" alt="online shoppers" width="100%" height="auto" style="max-width:150px;">
+                <h4>Online Shoppers</h4>
+                <p>Looking to buy affordable clothes and lifestyle products</p>
+            </div>
+            
+            <!--User Interviews-->
+            <div class="mb-5">
+                <h2>User Interviews</h2>
+                <ul>
+                    <li>Began with drafting a list of questions for a <b>semi-structured interview</b></li>
+                    <li>Interviewees were asked about their opinions of navigating through the site and monitored while performing artificial tasks</li>
+                    <li>Results from this interview were aggregated and divided using an <b>affinity diagram</b> to identify strengths and weaknesses of the current design</li>
+                </ul>
+                <img src="assets/img/yesstyle/affinitydiagram.jpg" alt="Affinity Diagram" width="100%" height="auto">
+                <p>This was also where we were able to find our stakeholders, who believe this site is <b>targeted to a younger population</b>, 
+                    who are <b>looking for affordable products</b>.
+                </p>
+                <p>Common trends show:</p>
+                <ul>
+                    <li>how things could be organized better</li>
+                    <li>difficulty in selecting the categories they want</li>
+                    <li>how it takes a bit longer to find things</li>
+                </ul>
+                <p>As a result, we revised our problem statement:</p>
+                <figure>
+                    <blockquote class="blockquote" style="color:#A6808C">
+                        <p>The layout of the website <b>overwhelms</b> the user with a lot of information. 
+                            The website <em>lacks appropriate facets</em> within their searching systems, especially for the filters and megamenu, 
+                            and on the product page. This creates <b>difficulty for the user in finding the product(s) they need</b>.
+                        </p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">
+                      Revised Problem Statement
+                    </figcaption>
+                </figure>
+            </div>
+            
+            <!--Design Alternatives-->
+            <div class="mb-5">
+                <h2>Design Alternatives</h2>
+                <p>Explored various options in how to better reorganize certain aspects of the site to enhance findability</p>
+                <ul>
+                    <li>Documented design alternatives based on different categories</li>
+                    <li><b>Targeted weaknesses</b> of the current design as identified in the affinity diagram with specific solutions</li>
+                </ul>
+                <div class="row row-cols-2 row-cols-md-4">
+                    <div class="col">
+                        <img src="assets/img/yesstyle/idea1.jpg" alt="Design Alternative 1" width="100%" height="auto">
+                    </div>
+                    <div class="col">
+                        <img src="assets/img/yesstyle/idea2.jpg" alt="Design Alternative 2" width="100%" height="auto">
+                    </div>
+                    <div class="col">
+                        <img src="assets/img/yesstyle/idea3.jpg" alt="Design Alternative 3" width="100%" height="auto">
+                    </div>
+                    <div class="col">
+                        <img src="assets/img/yesstyle/idea4.jpg" alt="Design Alternative 4" width="100%" height="auto">
+                    </div>
+                </div>
+                <h4 class="mt-3">After discussing the problem and alternatives, we <b>diverged on ideas 1 and 3</b>, which both focuses on product 
+                    information finding.</h4>
+            </div>
+            
+            <!--Diverged Based on Feedback-->
+            <div class="mb-5">
+                <h2>New Features</h2>
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                    <div class="col">
+                        <h3>Focusing on the shopping experience</h3>
+                        <ul>
+                            <li>Uses a horizontal filtering system so that options are easier to find right and so users do not have
+                                to scroll due to YesStyle's many filter options
+                            </li>
+                            <li>Size is now an option for filtering, which users considered as important in their shopping experience</li>
+                            <li>Color chips were added as another way to visually present color families</li>
+                            <li>Specific Product Page</li>
+                            <ul>
+                                <li>Better establishes information hierarchy</li>
+                                <ul>
+                                    <li>Removed repetition throughout the page and within its tabs</li>
+                                    <li>Organization and weight of information was moved or adjusted</li>
+                                </ul>
+                                <li>Organized gallery</li>
+                            </ul>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <img src="assets/img/yesstyle/yesstylewireframe.jpg" alt="YesStyle wireframe" width="100%" height="auto">
+                    </div>
+                </div><!--end row-->
+            </div>
+            
+            <!--Lofi Prototype-->
+            <div class="mb-5">
+                <h2>Lofi Prototype</h2>
+                <div class="text-center">
+                    <h5 style="color:#A6808C">The new user experience of finding relevant information for a specific product</h5>
+                    <video src="assets/img/yesstyle/yesstyleprototype.mp4" width=100% height=auto controls style="max-width:800px;">Video not supported</video>
+                    <p>The video displays one of the possible user flows of refining a search and looking for information 
+                        about a certain product before making a purchase. It shows the newly-added or improved functionalities that make the 
+                        shopping experience smoother.
+                    </p>
+                </div>
+                
+            </div>
+
+            <!--User Thoughts & Findings-->
+            <div class="mb-3">
+                <h2>User Thoughts & Findings</h2>
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                    <div class="col">
+                        <p>We allowed users to play with the prototype by taking remote control of our screen share over Zoom.
+                        Overall, the user response to our prototype was <span style="font-weight:bold;color:#A6808C;">positive</span>.
+                        </p>
+                        <p>Users liked:</p>
+                        <ul>
+                            <li>Color chips on the color pallete</li>
+                            <li>Color chips under each product</li>
+                            <li>Consolidated and improved filering system</li>
+                            <li>How easy it was to navigate</li>
+                            <li>Unit converter</li>
+                        </ul>
+                        <p>From the <b style="color:#A6808C;">interviews</b> and the <b style="color:#A6808C;">think aloud observations</b>,
+                             we have found that the changes made and the new additions were <b>necessary</b> in order to make the website easier
+                            to navigate and understand.</p>
+                    </div>
+                    <div class="col">
+                        <figure>
+                            <blockquote class="blockquote" style="color:#A6808C">
+                                <h2>
+                                    <b><em>"Better layout!"</em></b>
+                                </h2>
+                            </blockquote>
+                        </figure>
+                        <figure class="d-flex justify-content-end">
+                            <blockquote class="blockquote" style="color:#A6808C">
+                                <h2>
+                                    <b><em>"Search process is faster!"</em></b>
+                                </h2>
+                            </blockquote>
+                        </figure>
+                    </div>
+                </div><!--end row-->
+            </div>
+            
+            <!--Challenges & Takeaways-->
+            <div class="mb-5">
+                <h2>Challenges & Takeaways</h2>
+                <p><b>Next Steps:</b></p>
+                <ul>
+                    <li>Redesigning parts of our filtering system</li>
+                    <li>Developing a higher fidelity prototype so that every selection works in order to make testing smoother for participants</li>
+                    <li>Reevaluate what facets and controlled vocabularies we could incorporate to accommodate different sizing guides</li>
+                    <ul>
+                        <li>From the interactive visits, we learned that different cultures have different standards as what constitutes for each 
+                            size. We need to reevaluate what facets and controlled vocabularies we could incorporate to accommodate different sizing guides.</li>
+                    </ul>
+                </ul>
+                <p><b>Reflections</b></p>
+                <ul>
+                    <li>Adapted to doing online interviews where users could test the prototype by controlling our screen</li>
+                    <li>Limited participants in usability testing</li>
+                    <ul>
+                        <li>The interview process, before and after the prototypes were created, were very useful in furthering our
+                             design process. The questions allowed users to reveal the issues and the underlying needs users might 
+                             encounter on the site and how to address them. Therefore, the limitations on the number of people who
+                            participated in our study could have hindered us in further findings.
+                        </li>
+                    </ul>
+                </ul>
+            </div>
+
+            <!-- Mini Divider -->
+            <div class="container d-flex justify-content-center mb-3">
+                <hr width="50%" style="color:#B4A6AB">
+            </div>
+            <div class="text-center">
+                <h2 style="color:#A6808C;">Double Diamond Method</h2>
+                <figure class="figure">
+                    <img src="assets/img/yesstyle/doublediamond.png" alt="Double Diamond method" width="100%" height="auto" style="max-width:1000px;">
+                    <figcaption class="figure-caption">
+                        Throughout the design process, our team used the <span style="font-weight:bold;color:#A6808C;">double diamond method</span>,
+                        a design process that discovers and defines the problem before developing and delivering the solution. 
+                        <br>
+                        We learned that this model is not a linear approach; As we went back and forth between stages, design is an 
+                        iterative process to solve the root problem.
+                    </figcaption>
+                </figure>
+            </div>
+            
+        </div><!-- end content container -->
+
+    </div><!--end main body container-->
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <hr>
+            <div class="row">
+                <p class="text-center text-muted">
+                   &copy; Katherine Vo 2021 
+                </p>
+            </div>
+            <div class="row text-center">
+                <div class="col">
+                    <a href="https://www.linkedin.com/in/katherine-vo/" target="_blank" class="ms-2"><i class="fab fa-linkedin" style="font-size: 300%;"></i></a>
+                    <a href="https://github.com/kthrnv", target="_blank" class="ms-2"><i class="fab fa-github-square" style="font-size: 300%;"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="assets/bootstrap/js/jquery.slim.min.js"></script>
+    <script src="assets/bootstrap/js/popper.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="projects.js"></script>
+
+    <!--Back To Top Button-->
+    <br>
+    <button onclick="topFunction();" id="myBtn" title="Go to top"><i class="fas fa-chevron-circle-up"></i></button>
+
+    <script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+</body>
+</html>
