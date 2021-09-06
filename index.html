@@ -58,23 +58,98 @@
             </div>
         </div>
     </div>
-    
-    <br>
-    <br>
+
+    <div style="background-color:whitesmoke">
+    <div class="container mt-4">
+        <h1 class="text-center mt-4">Projects</h1>
         
-        <!--Content: Projects 
-        <div class="projects">
-            <p class="projHeader">Projects</p>
-            <div class="projectname">
-                <a href="gingercove.html">
-                    <img src="assets/GingerCovePhotoButton.png" alt="Ginger Cove" width="400" height= "400" class="gingercoveprojpage">
-                </a>
-            </div>
-        
-        </div>-->
-        
-        <br>
-        <br>
+        <div class="text-center pb-3" id="btnContainer">
+            <button class="btn p-2 my-1 active" onclick="filterSelection('all');"> All</button>
+            <button class="btn p-2 my-1" onclick="filterSelection('uiux');"> UI/UX</button>
+            <button class="btn p-2 my-1" onclick="filterSelection('product');"> Product Design</button>
+            <button class="btn p-2 my-1" onclick="filterSelection('webdev');"> Web Dev</button>
+            <button class="btn p-2 my-1" onclick="filterSelection('graphic');"> Graphic Design</button>
+        </div>
+          
+        <div class="container d-flex justify-content-center">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 mb-4">
+                <div class="col mb-3 filterDiv webdev">
+                    <a href="sasintern.html" class="proj-link">
+                        <img src="assets/img/projtiles/sastile.png" class="proj-tile" alt="SAS Internship Block" width="70%">
+                        <div class="container">
+                            <h4 class="proj-title">SAS Customer Learning Portals</h4>
+                            <h6 class="proj-subtitle">Virtual Internship - Summer 2021</h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-3 filterDiv uiux">
+                    <a href="yesstyle.html" class="proj-link">
+                        <img src="assets/img/projtiles/yesstyletile.png" class="proj-tile" alt="YesStyle Project Block" width="70%">
+                        <div class="container">
+                            <h4 class="proj-title">YesStyle E-commerce Website Redesign</h4>
+                            <h6 class="proj-subtitle">INST364: User-Centered Design - Fall 2020</h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-3 filterDiv uiux">
+                    <a href="gingercove.html" class="proj-link">
+                        <img src="assets/img/projtiles/gingercovetile.png" class="proj-tile" alt="Ginger Cove Project Block" width="70%">
+                        <div class="container">
+                            <h4 class="proj-title">Ginger Cove Assisted Living Wellness App</h4>
+                            <h6 class="proj-subtitle">Virtual Internship - Summer 2020</h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-3 filterDiv uiux graphic">
+                    <a href="bitcampdesign.html" class="proj-link">
+                        <img src="assets/img/projtiles/bitcamptile.png" class="proj-tile" alt="Bitcamp Projects Block" width="70%">
+                        <div class="container">
+                            <h4 class="proj-title">Design Work for Bitcamp</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-3 filterDiv uiux product graphic">
+                    <a href="technicadesign.html" class="proj-link">
+                        <img src="assets/img/projtiles/technicatile.png" class="proj-tile" alt="Technica Projects Block" width="70%">
+                        <div class="container">
+                            <h4 class="proj-title">Design Work for Technica</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-3 filterDiv webdev">
+                    <a href="randomize.html" class="proj-link">
+                        <img src="assets/img/projtiles/randomizetile.png" class="proj-tile" alt="INST377 Project Block" width="70%">
+                        <div class="container">
+                            <h4 class="proj-title">Randomize App</h4>
+                            <h6 class="proj-subtitle">INST377: Dynamic Web Applications - Spring 2021</h6>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-3 filterDiv webdev">
+                    <a href="vsa.html" class="proj-link">
+                        <img src="assets/img/projtiles/vsatile.png" class="proj-tile" alt="UMCP VSA Website Project Block" width="70%">
+                        <div class="container">
+                            <h4 class="proj-title">UMCP VSA Website</h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col mb-3 filterDiv webdev">
+                    <a href="awc.html" class="proj-link">
+                        <img src="assets/img/projtiles/awctile.png" class="proj-tile" alt="AWC UMD Website Project Block" width="70%">
+                        <div class="container">
+                            <h4 class="proj-title">AWC UMD Website</h4>
+                        </div>
+                    </a>
+                </div>
+            </div><!--end row-->
+        </div>
+          
+    </div><!--end container-->
+    </div>
+
+    <div class="container mt-4">
+        <a href="assets/Vo_Katherine_Resume_Website.pdf" target="_blank" style="text-decoration:none;"><button class="btn btn-secondary mx-auto d-block mb-2">Resume</button></a>
+    </div>
     
     <!-- FOOTER -->
     <footer class="footer">
@@ -98,6 +173,7 @@
     <script src="assets/bootstrap/js/jquery.slim.min.js"></script>
     <script src="assets/bootstrap/js/popper.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/projects.js"></script>
         
     <!--Back To Top Button-->
     <br>

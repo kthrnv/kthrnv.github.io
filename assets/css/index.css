@@ -17,10 +17,11 @@ img {
 p.info {
     font-family: sofia-pro, sans-serif;
     /*font-size: 250%;*/
-    font-size: 3vw;
+    font-size: 4vw;
     margin-top: 0px;
     margin-left: 0px;
     padding-top: 0px;
+    padding-left: 10px;
     color: #B4A6AB;
 }
 
@@ -31,6 +32,7 @@ p.main {
     margin-bottom: 0px;
     margin-left: 0px;
     padding-bottom: 0px;
+    padding-left: 10px;
 }
 
 .txt-rotate {
