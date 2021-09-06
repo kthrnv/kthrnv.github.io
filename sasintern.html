@@ -48,7 +48,7 @@
                         SAS is missioned to make it easier for more people to use powerful analytics every day, 
                         to shorten the path from data to insight – and to inspire bold new discoveries that drive progress.
                         Curiosity is the core of SAS and is pivotal in breaking down barriers and fueling ambition. One way 
-                        SAS does so is by providing Certification and Training for users to learn top-rated analytics skills 
+                        SAS does so is by providing Certifications and Training for users to learn top-rated analytics skills 
                         required in today's market.
                     </p>
                     <br>
@@ -77,12 +77,261 @@
 
         <hr>
 
-        <div class="container">
+        <div class="container mb-3">
             <div class="mb-5 text-center">
             <h2 style="color:#A6808C">Intern Expo 2021 Presentation</h2>
             <video src="assets/img/sas/KatherineVo_InternExpo.mp4" width=100% height=auto controls style="max-width:1000px;">Video not supported</video>
+            <p>For the Intern Expo, I presented two of the portals that I redesigned and developed. During the summer, I was able to work on over 10
+                portals: developing new features, redesigning the portals, and even building the portals from scratch. The two that I presented at
+                the Expo are the ones I am most proud of. Feel free to watch my presentation above or read about them below!
+            </p>
+            <hr>
             </div>
         </div><!-- end thorough content block -->
+
+        <!-- Written Process from Video -->
+        <!-- SAS CI 360 -->
+        <h2><strong>SAS Customer Intelligence 360 (SAS CI 360) Learning Subscription Portal</strong></h2>
+        <!-- Mini Divider -->
+        <div class="mb-3">
+            <hr width="25%" style="color:#B4A6AB">
+        </div>
+
+        <div class="container mb-3">
+            <h4 class="diagram"><b>Evaluation of the Portal</b></h4>
+            <div class="row row-cols-1 row-cols-sm-2">
+                <div class="col">
+                    <p>Request: Take a look at the portal and modernize it.</p>
+                    <ul>
+                        <li>Organized in tabs with links to videos, courses, and other content related to each track</li>
+                        <li>Clear of where users should go; Organization and UX is good</li>
+                        <li>Not the most attractive or engaging; UI can be improved</li>
+                    </ul>
+                </div><!--end col-->
+                <div class="col">
+                    <video src="assets/img/sas/ci360oldlayout.mp4" width=100% height=auto controls muted loop>Video not supported</video>                          
+                </div><!--end col-->
+            </div><!--end row-->
+        </div>
+
+        <div class="container mb-3">
+            <h4 class="diagram"><b>Design Iteration #1</b></h4>
+            <div class="row row-cols-1 row-cols-sm-2">
+                <div class="col">
+                    <p>Suggestion from my manager: Testing out an existing layout</p>
+                    <ul>
+                        <li>Changed colors for a "modern" feel</li>
+                        <li>Still uses a tab layout</li>
+                            <ul>
+                                <li>Feels "smoother" than the original</li>
+                                <li>Added icons to be more eye grabbing</li>
+                            </ul>
+                        <li>Removed "Overview" tab that was in the original layout</li>
+                        <li>Moved description of the portal into the header</li>
+                            <ul>
+                                <li>This allows the description to be visible no matter what tab the user is on</li>
+                                <li>Connects the user back to why each tab is part of SAS CI 360</li>
+                            </ul>
+                        <li>Intoductory videos that were in the "Overview" tab are in their respective tabs</li>
+                        <li>Instead of being organized into tables, the courses are signified by a bright badge 
+                            and videos are organized in a modal
+                        </li>
+                    </ul>
+                </div><!--end col-->
+                <div class="col">
+                    <video src="assets/img/sas/ci360design1.mp4" width=100% height=auto controls>Video not supported</video>                          
+                </div><!--end col-->
+            </div><!--end row-->
+        </div>
+
+        <div class="container mb-3">
+            <h4 class="diagram"><b>Thoughts & Reviews</b></h4>
+            <p>Although this layout is cleaner and more interactive, I wasn't very satisfied with this layout. My manager gave me the 
+                go-ahead to try something new, so it was back to the drawing board...
+            </p>
+        </div>
+
+        <div class="container mb-3">
+            <h4 class="diagram"><b>Wireframing</b></h4>
+            <p>Experimented with:</p>
+            <ul>
+                <li>Use of a navigation bar, instead of using tabs</li>
+                    <ul>
+                        <li>Different pages for each of the learning tracks</li>
+                    </ul>
+                <li>Using cards, represented by the squares in the wireframe</li>
+                <li>Carousels, to cycle through cards on pages with much more content</li>
+                <li>Colors and gradients for a modern look to the portal</li>
+            </ul>
+            <img src="assets/img/sas/ci360wireframe.png" alt="SAS CI 360 Portal Wireframe" width="100%" height="auto">
+        </div>
+
+        <div class="container mb-3">
+            <h4 class="diagram"><b>Final Look</b></h4>
+            <div class="row row-cols-1 row-cols-sm-2">
+                <div class="col">
+                    <p>After some feedback, this was the final iteration of the portal design.</p>
+                    <ul>
+                        <li>Decided to keep the original overview section but redesigned it as the <b>landing page</b></li>
+                        <li>Added SAS CI 360 logo to the navigation bar, a nice touch to tie in the look</li>
+                        <li>All learning tracks in SAS CI 360 are in the "Learn" dropdown, taking you to its respective courses and videos</li>
+                        <li>On each page, courses and videos are separated</li>
+                        <li>Card features:</li>
+                            <ul>
+                                <li>Card images from the Brand Imagery Assets</li>
+                                <li>Label identifying the card as "Course" or "Video"</li>
+                                <li>Courses have <b>tooltips</b> next to the course title</li>
+                                    <ul>
+                                        <li>This displays the course description on hover, allowing users to preview the course without
+                                        having to navigate away from the page.
+                                        </li>
+                                    </ul>
+                                <li>New courses have a "new" badge to pop out to interested users</li>
+                            </ul>
+                        <li>Video cards, since there are many of them, are organized in a <b>carousel</b></li>
+                            <ul>
+                                <li>Can be manually controlled by the arrows, or</li>
+                                <li>Animated to the next section after a certain amount of time if user is not hovering over a Video card</li>
+                            </ul>
+                        <li>Support section in the navigation bar to give students access to links for news, documentation, and community.
+                            Teacher Resources are also on this page but are not visible to the "Student" user group.
+                        </li>
+                    </ul>
+                </div><!--end col-->
+                <div class="col">
+                    <video src="assets/img/sas/ci360finaldesign.mp4" width=100% height=auto controls muted id="ci360final">Video not supported</video>                          
+                </div><!--end col-->
+            </div><!--end row-->
+        </div>
+
+        <!-- SAS Programmer Week 2021 -->
+        <h2 class="mt-5"><strong>SAS Programmer Week 2021</strong></h2>
+        <!-- Mini Divider -->
+        <div class="mb-3">
+            <hr width="25%" style="color:#B4A6AB">
+        </div>
+
+        <div class="container mb-3">
+            <h4 class="diagram"><b>Business Goals</b></h4>
+            <ul>
+                <li>Can we release topics by day again?</li>
+                <li>Do we need a ‘placeholder’ page for those who register early since they’re provided the access link at registration?</li>
+                <li>Anything else cool, new or fancy we would want to consider this year? Or anything that didn’t go great last year that you’d want to fix?</li>
+            </ul>
+        </div>
+
+        <div class="container mb-3">
+            <h4 class="diagram"><b>Evaluation of the 2020 Portal</b></h4>
+            <div class="row row-cols-1 row-cols-sm-2">
+                <div class="col">
+                    <ul>
+                        <li>Promotional Boxes: feel out of place/ doesn't flow with the rest of the page, hard to read text inside them</li>
+                        <li>Tracks: interactive boxes taking users to its own page</li>
+                        <li>Individual Track pages:</li>
+                            <ul>
+                                <li>Lists live events and shows asynchronous daily content by date</li>
+                                <li>Not very interactive</li>
+                                <li>Initial feeling: Overwhelming, information dump</li>
+                                <li>There is a card at the end of the page after scrolling quite a bit</li>
+                            </ul>
+                            <br>
+                            <p>UI elements don't compliment each other and the overall theme.</p>
+                    </ul>
+                </div><!--end col-->
+                <div class="col">
+                    <video src="assets/img/sas/spw2020design.mp4" width=100% height=auto controls>Video not supported</video>                          
+                </div><!--end col-->
+            </div><!--end row-->
+        </div>
+
+        <div class="container mb-3">
+            <h4 class="diagram"><b>Process</b></h4>
+            <div class="row row-cols-1 row-cols-sm-2">
+                <div class="col">
+                    <img src="assets/img/sas/spwprocess.jpg" alt="SAS Programmer Week 2021 Portal design process" width="100%" height="auto">
+                </div>
+                <div class="col">
+                    <h5>Main Question: <b>What could be changed to ease the user flow?</b></h5>
+                    <ul>
+                        <li>Collaborated with Marketing team for graphics and colors for the 2021 theme, requested image dimensions, 
+                            and implemented marketing requests</li>
+                        <li>Generated three wireframes</li>
+                        <li>Reiterated on designs from Marketing team and Education team feedback</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-3">
+            <h4 class="diagram"><b>Wireframing &#38; Prototyping</b></h4>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
+                <div class="col mb-3">
+                    <figure>
+                        <img src="assets/img/sas/flow1.png" alt="Portal design Flow 1" width="100%" height="auto">
+                        <figcaption class="figure-footer">
+                          <b>Flow #1</b>
+                          <br>
+                          Much like the 2020 portal, this design changed the promotional boxes to be more readable and added a pill navigation 
+                          within the individual track pages so that users can easily navigate through each daily content without feeling overwhelmed 
+                          or having to scroll as much. This would organize live and asynchronous content in the same content box.
+                          <br><br>
+                          <a href="https://xd.adobe.com/view/b7596ca4-c900-4e1d-8a40-cd5f3ec19e0d-e20a/?fullscreen&hints=off" target="_blank" style="text-decoration:none;"><button class="btn btn-secondary mx-auto d-block mb-2">Flow 1</button></a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col mb-3">
+                    <figure>
+                        <img src="assets/img/sas/flow2.png" alt="Portal design Flow 2" width="100%" height="auto">
+                        <figcaption class="figure-footer">
+                            <b>Flow #2</b>
+                            <br>
+                            As an alternate to Flow #1, clicking on the track image opens up an accordion with the pill navigation inside to toggle 
+                            through each day's content (rather than taking users to a separate page). 
+                            <br><br>
+                            <a href="https://xd.adobe.com/view/903708ad-d1e2-4b67-ad1b-5677889cc6c8-c564/" target="_blank" style="text-decoration:none;"><button class="btn btn-secondary mx-auto d-block mb-2">Flow 2</button></a>
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col mb-3">
+                    <figure>
+                        <img src="assets/img/sas/flow3.png" alt="Portal design Flow 3" width="100%" height="auto">
+                        <figcaption class="figure-footer">
+                            <b>Flow #3</b>
+                            <br>
+                            This flow functions the same way as Flow #1 but with the promotional boxes at the bottom of the page. This was just 
+                            to provide another alternative on how information can be presented.
+                            <br><br>
+                            <a href="https://xd.adobe.com/view/c883877c-3353-45bf-94d2-d2623a204a6a-9dd0/" target="_blank" style="text-decoration:none;"><button class="btn btn-secondary mx-auto d-block mb-2">Flow 3</button></a>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mb-3">
+            <h4 class="diagram"><b>Drawbacks</b></h4>
+            <ul>
+                <li class="mb-3"><b>Limitations to Moodle LMS:</b> After sharing the wireframes, I got feedback that Flow #2 seemed like the best option 
+                    so I developed that version and asked for more feedback. However, the marketing team wanted a way to lock content until
+                    the day arrived. With the pill navigation, it was impossible to use Moodle's Restriction feaure unless you wanted to
+                    lock the entire week's content. There was also no easy solution to lock/unlock content with pure HTML and Javascript.
+                </li>
+                <li class="mb-3"><b>Changing the Design:</b> After evaluating what would be the most efficient, we went with Flow #1 and traded out 
+                    the pill navigation for collapsibles instead. Each collapsible is coded in their own Label within Moodle, enabling
+                    me to put a date restriction on each label until the date it should be visible to learners.
+                </li>
+                <li class="mb-3"><b>Changes to the Individual Track Pages:</b> I separated Live Events and Daily Content in order for learners to 
+                    be aware of the Live Events throughout the week instead of learning about it the day of if it was in the collapsible. 
+                    These sections are labelled, unlike the 2020 portal, to make it more distinct. The Live Events section is designed in a 
+                    calendar-like view to visually appear like a week.
+                </li>
+            </ul>
+        </div>
+
+        <div class="container mb-3">
+            <h4 class="diagram"><b>Final Look</b></h4>
+            <video src="assets/img/sas/spwfinaldesign.mp4" width=100% height=auto controls>Video not supported</video>                          
+        </div>
 
     </div><!--end main content container-->
 
@@ -134,6 +383,10 @@
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
     }
+    </script>
+    
+    <script>
+        document.querySelector('#ci360final').playbackRate = 3.25;
     </script>
     
 </body>
